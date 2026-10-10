@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A little something for you 💝</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="hearts" id="hearts" aria-hidden="true"></div>
+
+  <header>
+    <h1 id="title">For My Favorite Person</h1>
+    <p id="subtitle">tap a gift to open it</p>
+  </header>
+
+  <main id="pile" aria-live="polite"></main>
+
+  <footer>
+    <button id="toggleAdd" class="fab" aria-label="Add a new gift">＋</button>
+    <div id="addPanel" class="add-panel" hidden>
+      <textarea id="newMsg" rows="3" placeholder="Write something sweet..."></textarea>
+      <button id="addBtn">Wrap it 🎁</button>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
